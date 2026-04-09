@@ -1,0 +1,13 @@
+{
+  "name": "summarize-mcp-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.81.0"
+  }
+}
