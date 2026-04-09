@@ -1,0 +1,11 @@
+name = "summarize-mcp-worker"
+main = "src/index.js"
+compatibility_date = "2026-04-09"
+
+[observability]
+enabled = true
+
+
+[[routes]]
+pattern = "summarize-mcp.qdp.qzz.io/*"
+zone_name = "qdp.qzz.io"
